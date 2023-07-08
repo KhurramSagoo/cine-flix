@@ -4,6 +4,22 @@ $cineColor2: rgb(255, 255, 255);
 body {
   position: relative;
 }
+.slide-wave {
+  position: relative;
+  height: 100%;
+  width: 75%;
+  padding: 10px;
+  color: white;
+  background-color:#1f3348;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto; /* Add this line */
+  // width: fit-content; /* Add this line */
+}
+
+.slide-wave:hover {
+  transform: scale(1.05);
+}
 
 body::after {
   content: "";

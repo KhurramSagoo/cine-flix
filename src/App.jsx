@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Movies from './components/Movies';
-import TVShows from './components/TVShows';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Movies from "./components/Movies";
+import TVShows from "./components/TVShows";
 
 const App = () => {
   return (

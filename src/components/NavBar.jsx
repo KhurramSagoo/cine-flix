@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../Style/logo.png';
+import logo from "../Style/logo.png";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div className="nav-container">
         <div className="nav-logo">
-            <img src={logo} alt="" />
+          <img src={logo} alt="" />
           <Link to="/" className="navbar-logo">
             <h2>CINE FLIX</h2>
           </Link>
